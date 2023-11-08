@@ -1,0 +1,11 @@
+D:\Новая папка (2)\ПР№19\bin\Debug\ПР№19.exe.config
+D:\Новая папка (2)\ПР№19\bin\Debug\ПР№19.exe
+D:\Новая папка (2)\ПР№19\bin\Debug\ПР№19.pdb
+D:\Новая папка (2)\ПР№19\obj\Debug\ПР№19.csproj.AssemblyReference.cache
+D:\Новая папка (2)\ПР№19\obj\Debug\ПР_19.Form1.resources
+D:\Новая папка (2)\ПР№19\obj\Debug\ПР_19.Properties.Resources.resources
+D:\Новая папка (2)\ПР№19\obj\Debug\ПР№19.csproj.GenerateResource.cache
+D:\Новая папка (2)\ПР№19\obj\Debug\ПР№19.csproj.CoreCompileInputs.cache
+D:\Новая папка (2)\ПР№19\obj\Debug\ПР№19.exe
+D:\Новая папка (2)\ПР№19\obj\Debug\ПР№19.pdb
+D:\Новая папка (2)\ПР№19\obj\Debug\ПР_19.Form2.resources
