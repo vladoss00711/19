@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar;
 
 namespace ПР_19
 {
@@ -74,7 +76,7 @@ namespace ПР_19
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -116,6 +118,7 @@ namespace ПР_19
                 textBox3.Clear();
                 textBox4.Clear();
             }
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -198,6 +201,21 @@ namespace ПР_19
         }
 
         private void tabPage1_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox3_Enter_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged_1(object sender, EventArgs e)
         {
 
         }

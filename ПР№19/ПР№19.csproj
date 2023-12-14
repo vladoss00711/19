@@ -92,5 +92,29 @@
   <ItemGroup>
     <None Include="Resources\2023-11-08_22-28-15.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3232.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4242.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2023-12-14_18-43-54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2023-12-14_18-46-34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2023-12-14_19-10-00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2023-12-14_19-10-59.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2023-12-14_19-11-40.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

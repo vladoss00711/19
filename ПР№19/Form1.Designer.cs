@@ -50,19 +50,19 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.btn312 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btn312 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -72,7 +72,7 @@
             this.справкаToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(619, 24);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -145,7 +145,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(792, 401);
+            this.tabPage1.Size = new System.Drawing.Size(610, 401);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Расчеты";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -157,25 +157,29 @@
             this.groupBox3.Controls.Add(this.textBox4);
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox3.Location = new System.Drawing.Point(481, 184);
+            this.groupBox3.Location = new System.Drawing.Point(363, 184);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(200, 121);
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Результат:";
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter_1);
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(59, 54);
+            this.textBox4.Enabled = false;
+            this.textBox4.Location = new System.Drawing.Point(59, 51);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 21);
             this.textBox4.TabIndex = 5;
+            this.textBox4.WordWrap = false;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged_1);
             this.textBox4.MouseHover += new System.EventHandler(this.textBox4_MouseHover);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(17, 54);
+            this.label5.Location = new System.Drawing.Point(19, 54);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(24, 15);
             this.label5.TabIndex = 1;
@@ -191,7 +195,7 @@
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox2.Location = new System.Drawing.Point(25, 184);
+            this.groupBox2.Location = new System.Drawing.Point(33, 184);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(200, 120);
             this.groupBox2.TabIndex = 3;
@@ -263,49 +267,16 @@
             this.groupBox1.Text = "Задание:";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter_1);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::ПР_19.Properties.Resources._2023_11_08_22_28_15;
-            this.pictureBox1.Location = new System.Drawing.Point(241, 58);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(344, 50);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Font = new System.Drawing.Font("Verdana", 11F);
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(224, 16);
+            this.label1.Location = new System.Drawing.Point(83, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(374, 14);
+            this.label1.Size = new System.Drawing.Size(442, 18);
             this.label1.TabIndex = 0;
             this.label1.Text = "Рассчитать значение выражения при исходных данных:";
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(540, 335);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 33);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Выход";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.btn_CloseMouseHover);
-            this.button2.MouseHover += new System.EventHandler(this.button2_MouseHover);
-            // 
-            // btn312
-            // 
-            this.btn312.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btn312.Location = new System.Drawing.Point(85, 335);
-            this.btn312.Name = "btn312";
-            this.btn312.Size = new System.Drawing.Size(100, 33);
-            this.btn312.TabIndex = 0;
-            this.btn312.Text = "Вычислить";
-            this.btn312.UseVisualStyleBackColor = true;
-            this.btn312.Click += new System.EventHandler(this.Вычислить);
-            this.btn312.MouseHover += new System.EventHandler(this.btn312_MouseHover);
             // 
             // tabControl1
             // 
@@ -313,23 +284,69 @@
             this.tabControl1.Location = new System.Drawing.Point(1, 27);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(800, 427);
+            this.tabControl1.Size = new System.Drawing.Size(618, 427);
             this.tabControl1.TabIndex = 4;
             // 
             // toolTip1
             // 
             this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ПР_19.Properties.Resources._2023_11_08_22_28_15;
+            this.pictureBox1.Location = new System.Drawing.Point(113, 72);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(362, 63);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
+            // 
+            // button2
+            // 
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button2.Image = global::ПР_19.Properties.Resources._2023_12_14_19_11_40;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(385, 335);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(141, 33);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "   Выход";
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.btn_CloseMouseHover);
+            this.button2.MouseHover += new System.EventHandler(this.button2_MouseHover);
+            // 
+            // btn312
+            // 
+            this.btn312.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn312.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btn312.Image = global::ПР_19.Properties.Resources._2023_12_14_19_10_59;
+            this.btn312.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn312.Location = new System.Drawing.Point(79, 335);
+            this.btn312.Name = "btn312";
+            this.btn312.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btn312.Size = new System.Drawing.Size(141, 33);
+            this.btn312.TabIndex = 0;
+            this.btn312.Text = "Вычислить";
+            this.btn312.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn312.UseVisualStyleBackColor = true;
+            this.btn312.Click += new System.EventHandler(this.Вычислить);
+            this.btn312.MouseHover += new System.EventHandler(this.btn312_MouseHover);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(619, 450);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximumSize = new System.Drawing.Size(635, 489);
+            this.MinimumSize = new System.Drawing.Size(635, 489);
             this.Name = "Form1";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "Моё приложение";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
@@ -341,8 +358,8 @@
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
